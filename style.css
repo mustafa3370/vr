@@ -39,13 +39,13 @@ header{
 }
 .logo{
     color: var(--text-color);
-    font-weight: 600;
-    font-size: 2.4rem;
+    font-weight: 300;
+    font-size: 1.4rem;
 }
 .logo span{
     color: var(--main-color);
-    font-weight: 600;
-    font-size: 2.4rem;
+    font-weight: 300;
+    font-size: 1.4rem;
 }
 .navbar{
     display: flex;
@@ -117,11 +117,17 @@ height: auto;
         text-align: center;
         color: var(--main-color);
         font-weight: 600;
-       
+     
      
 }
+.border{
+  
+  margin-top: 5px;
+  margin-bottom: 13px;
+    border-bottom: 1px solid var(--main-color);
+}
 .about-text h2{
-    font-size: var(--h2-font);
+    font-size: 16px;
 
 }
 .about-text p{
