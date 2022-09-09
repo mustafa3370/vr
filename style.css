@@ -350,7 +350,7 @@ header{
     }
     header .navbar{
         position: absolute;
-        top: -400px;
+        top:-400px;
         left: 0;
         right: 0;
         display: flex;
@@ -359,8 +359,9 @@ header{
         background: #2b2640;
         transition: .3s;
     }
-    header.navbar:active{
-        top:70px;
+  .navbar.active{
+    top:70px;
+
     }
     .navbar a{
         padding: 1.5rem;
