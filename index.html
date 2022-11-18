@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" >
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -22,14 +23,14 @@
         </ul>
     </header>
     <!--start home-->
-    <section class="home" id="home">
+    <section class="home" id="home" data-aos="fade-right">
         <div class="home-text">
             <h3>The whole world is in your eyes</h3>
             <p>It is a long established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout. The
                 point of using Lorem Ipsum is that it has a more-or-less normal
                 distribugion of letters as opposed.</p>
-                <a href="" class="btn">vr</a>
+                <a href="vr.html" class="btn">vr</a>
         </div>
         <div class="home-img">
             <img src="./img/2002.i121.044..isometric_augmented_virtual_reality_furniture-removebg-preview.png" alt="" >
@@ -38,7 +39,7 @@
     <!--end home-->
       <!--about start-->
       
-      <section class="about" id="about">
+      <section class="about" id="about" data-aos="fade-left">
         <div class="about-img">
             <img src="./img/4708293.png" alt="" >
         </div>
@@ -49,13 +50,13 @@
                     the readable content of a page when looking at its layout. The
                     point of using Lorem Ipsum is that it has a more-or-less normal
                     distribugion of letters as opposed.</p>
-                    <a href="" class="btn">Ar</a>
+                    <a href="Ar.html" class="btn">Ar</a>
             </div>
         </div>
       </section>
       <!--about end-->
 
-<section class="home" id="home">
+<section class="home" id="home" data-aos="fade-right">
     <div class="home-text">
         <h3>The whole world is in your eyes</h3>
         <p>It is a long established fact that a reader will be distracted by
@@ -69,7 +70,7 @@
     </div>
 </section>
 <!--footer-->
-<section id="contact">
+<section id="contact" data-aos="flip-down">
     <div class="footer">
         <div class="main">
             <div class="col">
@@ -105,6 +106,10 @@
     </div>
 
 </section>
-<script src="script.js"></script>
+<script src="./script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:1800});
+  </script>
 </body>
 </html>
